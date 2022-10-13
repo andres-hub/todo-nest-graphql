@@ -8,7 +8,7 @@ export class HelloWorldResolver {
         return 'Hello world';
     }
 
-    @Query(() => Float, { name: '+' })
+    @Query(() => Float, { name: 'randomNumber' })
     getRandomNumber(): number {
         return Math.random() * 100;
     }
