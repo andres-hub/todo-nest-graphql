@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Say hi"""
+  SayHi: String!
+  randomNumber: Float!
+
+  """From zero to argument to (default 6)"""
+  randomFromZeroTo(to: Int): Int!
+}
